@@ -234,8 +234,6 @@ public class Application {
         return theCard;
     }
 
-    // TODO Task 4: modify this method so that it takes in a getTopGradeUseCase
-    //              Note: this will require you to update the code which calls this method.
     private static JPanel createManageTeamCard(JFrame jFrame, LeaveTeamUseCase leaveTeamUseCase,
                                                GetAverageGradeUseCase getAverageGradeUseCase,
                                                GetTopGradeUseCase getTopGradeUseCase) {
